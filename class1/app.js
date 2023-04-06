@@ -18,4 +18,10 @@ const sayi = 334;
 ? console.log(`Sayi 0 ile 100 arasındadır.`) 
 : console.log(`Sayi 0 ile 100 arasında değildir.`);
 
+//? 3- 18 yaşından büyüklerin oy kullanabileceğini 18 yaşından küçüklerin oy kullanamayacağını ternary yapı ile konsola yazdıran kodu yazınız.
 
+const age = 18;
+
+age < 18 || age >= 18
+?console.log(`Oy kullanabilirsiniz.`)
+:console.log(`Oy kullanamazsınız.`);
