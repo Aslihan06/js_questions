@@ -116,4 +116,32 @@ if(yil%4===0 || yil%100 !==0 && yil%400===0){
     console.log(`${yil} artık yıl değildir`);
 }
 
+//?7- kullanıcıdan bir yıl ve ay alıyoruz o ayın kaç çektiğini konsola yazdıran kodu yazınız.
 
+const ay = 2;
+const years = 2023;
+
+if(ay==2){
+    if(years%4===0 || years%100 !==0 && years%400===0){
+        console.log(`${ay}. ay 29 çeker`);
+    }else{
+        console.log(`${ay}. ay 28 çeker`);
+    }
+}else if(
+    ay==1||
+    ay==3||
+    ay==5||
+    ay==7||
+    ay==8||
+    ay==10||
+    ay==12
+){
+    console.log(`${ay}. ay 31 çeker`);
+}else if(
+    ay==4||
+    ay==6||
+    ay==9||
+    ay==11
+){
+    console.log(`${ay}. ay 30 çeker`);
+}
