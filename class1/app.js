@@ -67,3 +67,41 @@ switch (day) {
         console.log(`Lütfen günlere denk gelen numarayı giriniz.`);
         break;
 }
+
+//? 5-Bir dersten alınan notun harfini aşağıdaki duruma göre konsola yazdırınız? 
+
+//  Not:
+//  90'dan büyükse AA.
+// - 80'den büyük yada 90'a eşitse AB,
+// - 70'den büyük yada 80'a eşitse BB,
+// - 60'den büyük yada 70'a eşitse BC,
+// - 50'den büyük yada 60'a eşitse CC,
+// - 40'den büyük yada 50'a eşitse CD,
+// - 30'den büyük yada 40'a eşitse DD,
+// - 30'dan küçük yada eşitse FF ,
+
+const not = 101;
+
+if (not>100 || not<0){
+    console.log(`Lütfen 100'den küçük ve 0'dan büyük sayı giriniz`);
+}else if(not>90){
+    console.log(`Puanınız AA`);
+}else if (not>80 || not === 90){
+    console.log(`Puanınız AB`);
+}else if(not>70 || not === 80){
+    console.log(`Puanınız BB`);
+}else if(not>60 || not === 70){
+    console.log(`Puanınız BC`);
+}else if(not>50 || not === 60){
+    console.log(`Puanınız CC`);
+}else if(not>40 || not === 50){
+    console.log(`Puanınız CD`);
+}else if(not>30 || not === 40){
+    console.log(`Puanınız DD`);
+}else if(not<=30 ){
+    console.log(`Puanınz FF`);
+}
+
+
+
+
