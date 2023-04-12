@@ -7,7 +7,7 @@
 //     }
 // }
 
-//! 2) Kullanıcıdan alınan 5 sayısının ortalamasını consola yazdırınız.
+//! 2) Kullanıcıdan alınan 5 sayının ortalamasını consola yazdırınız.
 
 // let sayac=0;
 // let sum = 0;
@@ -19,3 +19,19 @@
 //     sayac++
 // }
 // console.log(sum/5, sayac);
+
+
+//! 3) Kullanıcıdan alınan sayıları negatif girilene kadar toplayan ve consola yazan kodu yazınız?
+
+
+// let sum = 0;
+// while(true){
+//     const sayi = +prompt("bir sayı giriniz")
+
+//     if(sayi < 0){
+//         break
+//     }
+
+//     sum+=sayi
+// }
+// console.log(sum);
